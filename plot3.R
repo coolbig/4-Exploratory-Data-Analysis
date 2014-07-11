@@ -18,7 +18,7 @@ ss$Datetime <- as.POSIXct(datetime)
 ## Plotting
 with(ss, {
     plot(Sub_metering_1~Datetime, type="l",
-         ylab="Global Active Power (kilowatts)", xlab="")
+         ylab="Energy sub metering", xlab="")
     lines(Sub_metering_2~Datetime,col='Red')
     lines(Sub_metering_3~Datetime,col='Blue')
 })
